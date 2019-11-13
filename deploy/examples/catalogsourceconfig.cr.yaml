@@ -2,7 +2,7 @@ apiVersion: "operators.coreos.com/v2"
 kind: "CatalogSourceConfig"
 metadata:
   name: "installed-upstream-community-operators"
-  namespace: "openshift-marketplace"
+  namespace: "marketplace"
 spec:
   targetNamespace: local-operators
   source: upstream-community-operators
